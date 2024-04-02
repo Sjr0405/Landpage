@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+nav{
+    background-color: #fff;
+}
 .nav-link-activ{
     color: #ff7f50;
     text-decoration: none;
@@ -29,6 +31,7 @@
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #ff7f50;
     --bs-gradient: none;
+    font-family: "Oxanium", sans-serif;
 }
 .btn-collor-search{
     color: #fff;
@@ -51,3 +54,59 @@ p{
 text{
     font-family: "Raleway", sans-serif;
 }
+#Cards1 ul {
+    list-style-type: none;
+  }
+  
+  #Cards1 ul li {
+    position: relative;
+  }
+  
+  #Cards1 ul li::before {
+    font-size: larger;
+    content: "•";
+    color: #ff7f50;
+    margin-right: 5px;
+}
+#Cards1 {
+    width: 100%;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+h3{
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+h2{
+    font-family: "Raleway",sans-serif;
+    font-size: 50px;
+}
+.btn-long {
+    width: 320px; /* Defina a largura desejada para os botões */
+  }
+  .card-body {
+    padding: 30px; /* Adiciona um padding de 20px em todos os lados do conteúdo do card */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Tamanho da fonte para os títulos dos cards */
+  }
+  
+  .card-text,
+  .list {
+    font-size: 1rem; /* Tamanho da fonte para o texto dos cards e listas */
+  }
+  .card-img-top{
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  video{
+    max-width: 1320px;
+    max-height: 580px;
+  }
+  #carousel-item img{
+    margin-left: 20%;
+  }
